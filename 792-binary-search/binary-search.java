@@ -12,7 +12,7 @@ class Solution {
             if(target < nums[mid]){
                 end = mid - 1;
             } else if(target > nums[mid]){ 
-            // 3 When target is larger than the bigger element
+            // 3 When target is larger than the middle element
                 start = mid + 1;
             }else{
                 return mid; 
